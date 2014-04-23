@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Networking">
+      <UniqueIdentifier>{5a2efe27-6ec5-44f6-a60d-324c9d0a8971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking">
+      <UniqueIdentifier>{333be519-19e5-4b6b-9e79-3571b2fcdf7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{7995ae63-ffc9-41f5-a48b-ea661d6d1f90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{d145d4f6-759e-48ac-b5df-be24490d81ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{ac184438-9719-4b5a-baf0-f39d24852593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{c8f41e8b-0e2f-4bf3-abfd-541efaede2db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mech.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Server.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\GameClient.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ServerClient.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Button.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Text.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Widget.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="States\BattleMech.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\MainMenu.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\MechMenu.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelperFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="States\OptionMenu.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mech.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\GameClient.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Server.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ServerClient.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="States\MainMenu.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Widget.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Text.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Button.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="States\BattleMech.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="States\MechMenu.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="States\TestClientState.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="States\OptionMenu.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Battle Corp.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BHeavyLow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\BLightLow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\BMediumLow.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\BMediumLow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Hexagon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\HWoods.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\HWoods2Low.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\LeftUIGrey.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\LWoods.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\LWoods2Low.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Mech.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Plains.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Plains2Low.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RHeavyHigh.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RHeavyLow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RHeavyUI.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RLightHigh.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RLightLow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RLightUI.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RMediumHigh.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RMediumLow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RMedUI.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Rock2Low.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Rocks.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

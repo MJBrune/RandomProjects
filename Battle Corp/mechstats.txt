@@ -1,0 +1,35 @@
+-light 
+10 points total
+8 movement
+
+4 points armor 44
+head: 6
+Torso: 10
+L/R Arm: 7
+L/R Leg: 7
+
+6 points weapons 
+
+-medium 
+15 points total
+5 movement
+
+6 points armor 66
+head: 6
+Torso: 16
+L/R Arm: 11
+L/R Leg: 11
+
+9 points weapons 
+
+-heavy 
+20 points total
+2 movement
+
+8 points armor 88
+head: 6
+Torso: 22
+L/R Arm: 15
+L/R Leg: 15
+
+12 points weapons

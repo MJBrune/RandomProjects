@@ -1,0 +1,49 @@
+--==short range==--
+
+-light laser
+1 dmg
+.5 points
+1-2 short(+0 to hit), 3 long (+2 to hit)
+-medium laser
+2 dmg
+1 points
+1-3 short(+0 to hit), 4 long (+2 to hit)
+-heavy laser
+3 dmg
+2 points
+1-5 short(+0 to hit), 6 long (+2 to hit)
+
+-light cannon
+4 dmg
+2 points
+1-4 short (+0 to hit), 5 long (+2 to hit)
+-heavy cannon
+7 dmg
+3 points
+1-4 short (+0 to hit), 5 long (+2 to hit)
+-snub cannon 
+1dmg per hit/9 slugs (roll to hit, if hits, roll amount of hits.  1-2 = 2, 3-4 = 4, 5-6 = 6, 7-8 = 7, 9-10 = 8, 11 = 9)
+4 points
+1-2 short (+0 to hit), 3 long (+2 to hit)
+
+--==long range==--
+
+-light rifle
+3 dmg
+3 points
+1-2 min (+2 to hit), 3-9 short (+0 to hit), 10-14 long (+1 to hit)
+-heavy rifle
+5 dmg
+4 points
+1 min (+2 to hit), 2-8 short (+0 to hit), 9-13 long (+1 to hit)
+
+--==rockets==--
+
+-rocket pack
+1dmg per hit/6 rockets (roll to hit, if hits, roll amount of hits.  1-2 = 1, 3-4 = 2, 5-6 = 3, 7-8 = 4, 9-10 = 5, 11 = 6)
+3 points
+1 min (+2 to hit), 2-6 short (+0 to hit), 7-8 long (+1 to hit)
+-guided rocket
+4 dmg
+3 points
+1-3 min (+2 to hit), 4-10 short (+0 to hit), 11-12 long (+1 to hit)

@@ -1,0 +1,90 @@
+--==For attacker==--
+
+no movement         +0
+movement            +2
+
+--==To hit target==--
+
+hexes moved 0-1     +0
+            2-3     +1
+            4-5     +2
+            6-8     +3
+            9+      +4
+
+and add if it applies:
+
+In light woods      +1
+   Heavy woods      +2
+
+--==Movement==--
+
+Into    plains      +1
+      light forest  +1
+      heavy forest  +2
+        rocks       +2  (chance of falling)
+
+--==Line of sight==--
+
+1x Heavy woods blocks LoS
+4x light woods in a row blocks LoS
+
+--==Physical attacks==--
+
+Can only do physical attacks from the front of a mech, only at 1 range.
+
+Kicking (roll normal to-hit +2)
+
+Does half the damage that the kicking mech has in points (light = 5, medium = 7, heavy = 10)
+Kicking hit location table (1-5 = Left leg, 6-10 = right leg, 11 = torso)
+
+Charge attack (roll normal to-hit +3)
+
+Does half the damage that the charging mech has in points (light = 5, medium = 7, heavy = 10) + 1dmg per hex traveled.
+Uses the normal hit location table
+Charging mech takes half the damage that the charging mech has in points to its torso for a sucessfull charge.
+
+
+--==Falling==--
+
+Taken 15 points of damage in 1 turn (1-5 falls, 6-11 stays up)
+moving into rocks         (1-4 falls, 5-11 stays up)
+Fails the physical attack roll (1-4 falls, 5-11 stays up)
+
+--==If fails the fall roll==--
+
+Roll facing direction (1 = where you were facing, 2-3 = 1 turn to the right, 4-5 = 2 turns to the right, 6-7 = facing backwards, 8-9 = 2 turns to the left, 10-11 = 1 turn to the left)
+
+Falling damage is baised on half the points the mech has, (light = 5, medium = 7, heavy = 10), and is rolled on the hit location table.
+
+--==Hit location table==--
+
+Cockpit 11
+Torso 9-10
+Right arm 7-8
+Left arm 5-6
+Right leg 3-4
+Left leg 1-2
+
+--==Damage overflow==--
+
+R/L leg ==> Torso
+R/L Arm ==> Torso
+
+---==Mech death==--
+
+Losing the Cockpit, or the Torso
+
+A mech can still operate without limbs, but if it has no weapons, they loose.  Legs are weapons.
+
+--==Loosing limbs==--
+
+Losing a leg = instant fall.
+Losing an arm = loses the weapons in that arm.
+
+--==Critical hits==--
+
+Always a possible critical hit if 11 is rolled when rolling to hit. (Roll for location, then roll if critical 10-11)
+-Cockpit critical = Pilot death.
+-Torso critical = Engine explosion.
+-R/L arm critical = A weapon in that limb destroyed.
+-R/L leg critical = -1 movement point.

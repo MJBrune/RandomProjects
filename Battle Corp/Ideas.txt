@@ -1,0 +1,27 @@
+Concerning Movement and shooting
+Can move and shoot a light weapon
+Can move and turn
+can turn and shoot light weapon
+can shoot heavy weapon
+Undo a move from a mech.
+Make each weapon unique in some way
+
+One bug I did notice was that after a part is destroyed it can still be hit
+
+After someone wins, give option to play again, change mechs, or go to menu screen
+
+Possibly add more players
+
+instructions on how to play
+
+add obstacles that mechs can't move/shoot through
+
+Add particle effects and animations (SFML2.0):
+http://www.bromeon.ch/libraries/thor/index.html
+
+Add Berkelium for UI
+http://berkelium.org/
+
+Buttons: Okay button Bottom left renamed to OK.
+3D effect on buttons, light grey background with dark grey bottom and right edge.
+

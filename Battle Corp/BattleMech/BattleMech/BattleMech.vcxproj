@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BA9954A4-6322-4D0F-B97A-8C3B25D5291E}</ProjectGuid>
+    <RootNamespace>BattleMech</RootNamespace>
+    <ProjectName>Battle Corp</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>../../SFML/include/;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>../../SFML/lib/vc2008/;$(LibraryPath)</LibraryPath>
+    <LinkIncremental />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>../../SFML/include/;$(IncludePath)</IncludePath>
+    <LibraryPath>../../SFML/lib/vc2008/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-window-s-d.lib;sfml-graphics-s-d.lib;sfml-system-s-d.lib;sfml-network-s-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Version>0.1.0</Version>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-window-s.lib;sfml-graphics-s.lib;sfml-system-s.lib;sfml-network-s.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="Globals.cpp" />
+    <ClCompile Include="HelperFunctions.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mech.cpp" />
+    <ClCompile Include="Network\Button.cpp" />
+    <ClCompile Include="Network\GameClient.cpp" />
+    <ClCompile Include="Network\Server.cpp" />
+    <ClCompile Include="Network\ServerClient.cpp" />
+    <ClCompile Include="Network\Text.cpp" />
+    <ClCompile Include="Network\Widget.cpp" />
+    <ClCompile Include="States\BattleMech.cpp" />
+    <ClCompile Include="States\MainMenu.cpp" />
+    <ClCompile Include="States\MechMenu.cpp" />
+    <ClCompile Include="States\OptionMenu.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="TileMap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="HelperFunctions.h" />
+    <ClInclude Include="Network\GameClient.h" />
+    <ClInclude Include="Network\Server.h" />
+    <ClInclude Include="Network\ServerClient.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="States\BattleMech.h" />
+    <ClInclude Include="States\MechMenu.h" />
+    <ClInclude Include="States\MainMenu.h" />
+    <ClInclude Include="States\OptionMenu.h" />
+    <ClInclude Include="States\TestClientState.h" />
+    <ClInclude Include="TileMap.h" />
+    <ClInclude Include="Mech.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="UI\Button.h" />
+    <ClInclude Include="UI\Text.h" />
+    <ClInclude Include="UI\Widget.h" />
+    <ClInclude Include="Weapon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Battle Corp.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BHeavyLow.png" />
+    <None Include="Resources\BLightLow.png" />
+    <None Include="Resources\BMediumLow.ico" />
+    <None Include="Resources\BMediumLow.png" />
+    <None Include="Resources\Hexagon.png" />
+    <None Include="Resources\HWoods.png" />
+    <None Include="Resources\HWoods2Low.png" />
+    <None Include="Resources\LeftUIGrey.jpg" />
+    <None Include="Resources\LWoods.png" />
+    <None Include="Resources\LWoods2Low.png" />
+    <None Include="Resources\Mech.png" />
+    <None Include="Resources\Plains.png" />
+    <None Include="Resources\Plains2Low.png" />
+    <None Include="Resources\RHeavyHigh.png" />
+    <None Include="Resources\RHeavyLow.png" />
+    <None Include="Resources\RHeavyUI.png" />
+    <None Include="Resources\RLightHigh.png" />
+    <None Include="Resources\RLightLow.png" />
+    <None Include="Resources\RLightUI.png" />
+    <None Include="Resources\RMediumHigh.png" />
+    <None Include="Resources\RMediumLow.png" />
+    <None Include="Resources\RMedUI.png" />
+    <None Include="Resources\Rock2Low.png" />
+    <None Include="Resources\Rocks.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
