@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DiggyServer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DiggyServer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DiggyServer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="/home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include" />
+			<Add directory="/home/james/cloud/DiggyServer/boost_1_53_0/boost" />
+			<Add directory="/home/james/cloud/DiggyServer/mysql-connector-c++-1.1.2-linux-glibc2.3-x86-32bit/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-audio" />
+			<Add library="sfml-graphics" />
+			<Add library="sfml-network" />
+			<Add library="sfml-system" />
+			<Add library="sfml-window" />
+			<Add library="mysqlcppconn-static" />
+			<Add library="mysqlclient" />
+			<Add directory="/home/james/cloud/DiggyLinux/SFML-2.0-rc-32/lib" />
+			<Add directory="/home/james/cloud/DiggyServer/mysql-connector-c++-1.1.2-linux-glibc2.3-x86-32bit/lib" />
+		</Linker>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

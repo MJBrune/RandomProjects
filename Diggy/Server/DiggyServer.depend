@@ -1,0 +1,248 @@
+# depslib dependency file v1.0
+1361929490 source:/home/james/cloud/DiggyServer/main.cpp
+	<iostream>
+	<list>
+	<sys/types.h>
+	<unistd.h>
+	<SFML/Network.hpp>
+	<stdlib.h>
+	<iostream>
+	"mysql_connection.h"
+	<cppconn/driver.h>
+	<cppconn/exception.h>
+	<cppconn/resultset.h>
+	<cppconn/statement.h>
+	<cppconn/prepared_statement.h>
+
+1361331722 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/Network.hpp
+	<SFML/System.hpp>
+	<SFML/Network/Ftp.hpp>
+	<SFML/Network/Http.hpp>
+	<SFML/Network/IpAddress.hpp>
+	<SFML/Network/Packet.hpp>
+	<SFML/Network/SocketSelector.hpp>
+	<SFML/Network/TcpListener.hpp>
+	<SFML/Network/TcpSocket.hpp>
+	<SFML/Network/UdpSocket.hpp>
+
+1361331722 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1361331722 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/Config.hpp
+
+1361331724 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/Clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1361331722 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/Export.hpp
+	<SFML/Config.hpp>
+
+1361331722 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/Time.hpp
+	<SFML/System/Export.hpp>
+
+1361331724 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/Err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1361331724 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/InputStream.hpp
+	<SFML/Config.hpp>
+
+1361331724 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/Lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1361331722 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/NonCopyable.hpp
+	<SFML/System/Export.hpp>
+
+1361331724 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/Mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1361331724 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/Sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1361331724 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/String.hpp
+	<SFML/System/Export.hpp>
+	<locale>
+	<string>
+
+1361840493 /home/james/cloud/DiggyServer/boost_1_53_0/boost/locale
+
+1361331722 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/Thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1361331722 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/Thread.inl
+
+1361331724 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/ThreadLocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1361331724 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/ThreadLocalPtr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1361331722 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/ThreadLocalPtr.inl
+
+1361331722 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/Utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1361840485 /home/james/cloud/DiggyServer/boost_1_53_0/boost/algorithm
+
+1361331724 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/Utf.inl
+
+1361331722 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/Vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1361331722 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/Vector2.inl
+
+1361331722 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/Vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1361331724 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/System/Vector3.inl
+
+1361331726 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/Network/Ftp.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/TcpSocket.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1361331726 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/Network/Export.hpp
+	<SFML/Config.hpp>
+
+1361331726 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/Network/TcpSocket.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/Socket.hpp>
+	<SFML/System/Time.hpp>
+
+1361331726 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/Network/Socket.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/SocketHandle.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<vector>
+
+1361331726 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/Network/SocketHandle.hpp
+	<SFML/Config.hpp>
+	<basetsd.h>
+
+1361331726 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/Network/Http.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/IpAddress.hpp>
+	<SFML/Network/TcpSocket.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<map>
+	<string>
+
+1361331726 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/Network/IpAddress.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/System/Time.hpp>
+	<istream>
+	<ostream>
+	<string>
+
+1361331726 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/Network/Packet.hpp
+	<SFML/Network/Export.hpp>
+	<string>
+	<vector>
+
+1361331726 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/Network/SocketSelector.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1361331726 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/Network/TcpListener.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/Socket.hpp>
+
+1361331726 /home/james/cloud/DiggyLinux/SFML-2.0-rc-32/include/SFML/Network/UdpSocket.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/Socket.hpp>
+	<vector>
+
+1359042315 /home/james/cloud/DiggyServer/mysql-connector-c++-1.1.2-linux-glibc2.3-x86-32bit/include/mysql_connection.h
+	<cppconn/connection.h>
+	<boost/shared_ptr.hpp>
+	<boost/scoped_ptr.hpp>
+
+1359042315 /home/james/cloud/DiggyServer/mysql-connector-c++-1.1.2-linux-glibc2.3-x86-32bit/include/cppconn/connection.h
+	<map>
+	<boost/variant.hpp>
+	"build_config.h"
+	"warning.h"
+	"sqlstring.h"
+
+1359042315 /home/james/cloud/DiggyServer/mysql-connector-c++-1.1.2-linux-glibc2.3-x86-32bit/include/cppconn/build_config.h
+
+1359042315 /home/james/cloud/DiggyServer/mysql-connector-c++-1.1.2-linux-glibc2.3-x86-32bit/include/cppconn/warning.h
+	<stdexcept>
+	<string>
+	<memory>
+	"sqlstring.h"
+
+1359042315 /home/james/cloud/DiggyServer/mysql-connector-c++-1.1.2-linux-glibc2.3-x86-32bit/include/cppconn/sqlstring.h
+	<string>
+	"build_config.h"
+	<iostream>
+
+1359042315 /home/james/cloud/DiggyServer/mysql-connector-c++-1.1.2-linux-glibc2.3-x86-32bit/include/cppconn/driver.h
+	"connection.h"
+	"build_config.h"
+
+1359042315 /home/james/cloud/DiggyServer/mysql-connector-c++-1.1.2-linux-glibc2.3-x86-32bit/include/cppconn/exception.h
+	"build_config.h"
+	<stdexcept>
+	<string>
+	<memory>
+
+1359042315 /home/james/cloud/DiggyServer/mysql-connector-c++-1.1.2-linux-glibc2.3-x86-32bit/include/cppconn/resultset.h
+	"config.h"
+	<list>
+	<map>
+	<iostream>
+	"sqlstring.h"
+	"resultset_metadata.h"
+
+1359042411 /home/james/cloud/DiggyServer/mysql-connector-c++-1.1.2-linux-glibc2.3-x86-32bit/include/cppconn/config.h
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1359042315 /home/james/cloud/DiggyServer/mysql-connector-c++-1.1.2-linux-glibc2.3-x86-32bit/include/cppconn/resultset_metadata.h
+	"sqlstring.h"
+	"datatype.h"
+
+1359042315 /home/james/cloud/DiggyServer/mysql-connector-c++-1.1.2-linux-glibc2.3-x86-32bit/include/cppconn/datatype.h
+
+1359042315 /home/james/cloud/DiggyServer/mysql-connector-c++-1.1.2-linux-glibc2.3-x86-32bit/include/cppconn/statement.h
+	"config.h"
+	"resultset.h"
+	<string>
+
+1359042315 /home/james/cloud/DiggyServer/mysql-connector-c++-1.1.2-linux-glibc2.3-x86-32bit/include/cppconn/prepared_statement.h
+	<iostream>
+	"statement.h"
+
