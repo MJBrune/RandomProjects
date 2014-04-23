@@ -1,0 +1,10 @@
+{
+	"speed": 2,
+	"mobility": 1,
+    "turretOriginX": 10,
+    "turretOriginY": 28,
+	"turretOffsetX": 15,
+	"turretOffsetY": 30,
+    "turretImage": "./assets/tanks/turret.png",
+    "tankImage": "./assets/tanks/tank.png"
+}
