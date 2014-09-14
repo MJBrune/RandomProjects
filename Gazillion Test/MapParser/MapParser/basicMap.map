@@ -1,0 +1,29 @@
+=BG=
+Map
+(
+  Wall
+  (
+    Start=2,4
+    End=5,8
+  )
+  Wall
+  (
+    Start=5,8
+    End=14,25
+  )
+)
+=ITEMS=
+Item
+(
+  Name="chair"
+  Pos=4,4
+)
+Item
+(
+  Name="room1"
+  Item
+  (
+    Name="table"
+    Pos=4,5
+  )
+)
