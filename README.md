@@ -1,5 +1,12 @@
 # RandomProjects
 
+### What the fuck is this shit?
+
+I dunno It's just some shit projects that I had... If you can find usefulness in them in anyway feel free.
+
+### License
+
+
         DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
                     Version 2, December 2004 
 
